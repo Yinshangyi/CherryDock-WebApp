@@ -6,7 +6,7 @@ function NavBar() {
     const imgPath = require('../../assets/img/profile_pic_white.jpg');
     return (
         <header className={style.container}>
-            <span className={style.currentMenu}>Containers</span>
+            <span className={style.currentMenu}>Containers List</span>
             <div className={style.account}>
                 <img className={style.avatar} src={imgPath} alt="INF" />
                 <span className={style.username}>Admin</span>
